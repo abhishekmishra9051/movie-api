@@ -1,5 +1,6 @@
-package dev.abhishek.movies;
+package dev.abhishek.movies.entity;
 
+import dev.abhishek.movies.entity.Review;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

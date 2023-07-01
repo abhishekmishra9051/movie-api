@@ -1,5 +1,7 @@
-package dev.abhishek.movies;
+package dev.abhishek.movies.controller;
 
+import dev.abhishek.movies.entity.Movie;
+import dev.abhishek.movies.service.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

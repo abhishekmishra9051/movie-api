@@ -1,5 +1,7 @@
-package dev.abhishek.movies;
+package dev.abhishek.movies.service;
 
+import dev.abhishek.movies.repository.MovieRepository;
+import dev.abhishek.movies.entity.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

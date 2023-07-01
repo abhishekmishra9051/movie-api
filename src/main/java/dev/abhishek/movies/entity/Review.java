@@ -1,4 +1,4 @@
-package dev.abhishek.movies;
+package dev.abhishek.movies.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

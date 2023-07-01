@@ -1,5 +1,8 @@
-package dev.abhishek.movies;
+package dev.abhishek.movies.service;
 
+import dev.abhishek.movies.repository.ReviewRepository;
+import dev.abhishek.movies.entity.Movie;
+import dev.abhishek.movies.entity.Review;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
@@ -7,7 +10,6 @@ import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
-import java.util.Optional;
 
 @Service
 public class ReviewService {
